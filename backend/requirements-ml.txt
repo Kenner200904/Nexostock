@@ -1,0 +1,4 @@
+# Python 3.11 o superior. El instalador elige versiones compatibles.
+numpy>=2.3,<3
+pandas>=2.2,<4
+scikit-learn>=1.8,<2

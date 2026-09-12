@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme { --font-sans: "Manrope", Arial, sans-serif; --font-mono: "DM Mono", monospace; }
+:root { font-family: "Manrope", Arial, sans-serif; background: #e8e8e2; color: #151515; }
+body { min-width: 320px; }
+button, select { cursor: pointer; }
+.top-strip { height: 5px; background: repeating-linear-gradient(90deg, #151515 0 22px, #168178 22px 42px, #e4ad3d 42px 50px, #151515 50px 74px); }
+.wire-label { font-family: "DM Mono", monospace; font-size: 10px; font-weight: 500; letter-spacing: .12em; line-height: 1.2; text-transform: uppercase; color: #686863; }
+.tag { display: inline-block; border: 1px solid #c39122; background: #fff2ca; padding: 4px 7px; font-family: "DM Mono", monospace; font-size: 10px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: #664d0e; }
+.tag-red { border-color: #d67a70; background: #fbe2df; color: #9e2c20; }
+
+:focus-visible { outline: 2px solid #168178; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
